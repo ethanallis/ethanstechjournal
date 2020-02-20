@@ -1,1 +1,1 @@
-%ComputerName%
+mgmt01-ethanallis
