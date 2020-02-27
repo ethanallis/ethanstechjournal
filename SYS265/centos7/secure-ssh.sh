@@ -9,4 +9,5 @@ sudo mkdir /home/$x/.ssh
 sudo cp /root/ethanstechjournal/SYS265/public-keys/id_rsa.pub /home/$x/.ssh/authorized_keys
 sudo chmod 700 /home/$x/.ssh
 sudo chmod 600 /home/$x/.ssh/authorized_keys
+sudo chown -R $x:$x /home/$x/.ssh
 echo "Created new no-password SSH user '$x'"
